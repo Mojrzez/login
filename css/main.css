@@ -1,0 +1,99 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/img/space.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.699);
+  border-radius: 20px;
+  text-align: center;
+  padding: 6rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card p {
+  color: #2dcf1e;
+  font-size: 1.5rem;
+  margin-bottom: -5rem;
+  margin-top: -5rem;
+}
+
+.card h1 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.card input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 3px solid white;
+  color: white;
+  padding: 2rem .5rem;
+  font-size: 2rem;
+}
+
+.card button {
+  height: 50px;
+  width: 120px;
+  padding: .5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: lime;
+  -webkit-transition: scale .3s;
+  transition: scale .3s;
+  margin: 2rem;
+}
+
+.card button:hover {
+  scale: 1.1;
+}
+
+.card button:nth-child(1) {
+  background-color: #535353;
+}
+
+.red {
+  color: tomato;
+}
+/*# sourceMappingURL=main.css.map */
