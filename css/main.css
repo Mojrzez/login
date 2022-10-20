@@ -24,17 +24,20 @@ body {
           align-items: center;
   font-size: 10px;
   font-family: sans-serif;
-  background-size: cover;
-  background-position: center;
+}
+
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .card {
-  height: 100vh;
-  width: 100vw;
+  width: 90%;
   background-color: rgba(0, 0, 0, 0.699);
   border-radius: 20px;
   text-align: center;
-  padding: 6rem 5rem;
+  padding: 5rem 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,36 +56,41 @@ body {
 .card p {
   color: #2dcf1e;
   font-size: 1.5rem;
-  margin-bottom: -5rem;
-  margin-top: -5rem;
+  height: 0.5rem;
+  margin-bottom: 4rem;
+  margin-top: -2rem;
 }
 
 .card h1 {
   font-size: 3.5rem;
   color: white;
+  margin-bottom: 5rem;
 }
 
 .card input {
-  border: none;
+  width: 100%;
   outline: none;
   background-color: transparent;
-  border-bottom: 3px solid white;
+  border: 2px solid #bdbdbd;
+  border-radius: 15px;
   color: white;
-  padding: 2rem .5rem;
+  padding: 1.5rem 1.5rem;
   font-size: 2rem;
+  margin-bottom: 6rem;
+  font-size: 1.6rem;
 }
 
 .card button {
-  height: 50px;
-  width: 120px;
+  height: 4rem;
+  width: 10rem;
   padding: .5rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   border-radius: 20px;
   background-color: lime;
   -webkit-transition: scale .3s;
   transition: scale .3s;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 .card button:hover {
@@ -95,5 +103,155 @@ body {
 
 .red {
   color: tomato;
+}
+
+@media (min-width: 500px) {
+  .card {
+    width: 65%;
+    padding: 5rem 5rem;
+  }
+  .card p {
+    font-size: 1.6rem;
+    height: 0.5rem;
+    margin-bottom: 4rem;
+    margin-top: -2rem;
+  }
+  .card h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+  }
+  .card input {
+    width: 80%;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 6rem;
+    font-size: 1.8rem;
+  }
+  .card button {
+    height: 5rem;
+    width: 12rem;
+    padding: .5rem;
+    font-size: 1.8rem;
+    margin: 1.5rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .card {
+    width: 55vw;
+    padding: 5rem 5rem;
+  }
+  .card p {
+    font-size: 1.8rem;
+    height: 0.5rem;
+    margin-bottom: 4rem;
+    margin-top: -2rem;
+  }
+  .card h1 {
+    font-size: 4.5rem;
+    margin-bottom: 5rem;
+  }
+  .card input {
+    width: 80%;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 6rem;
+    font-size: 1.8rem;
+  }
+  .card button {
+    height: 5rem;
+    width: 12rem;
+    padding: .5rem;
+    font-size: 1.8rem;
+    margin: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .card {
+    width: 40%;
+    padding: 5rem 5rem;
+  }
+  .card p {
+    font-size: 2rem;
+    height: 0.5rem;
+    margin-bottom: 6rem;
+    margin-top: -4rem;
+  }
+  .card h1 {
+    font-size: 5rem;
+    margin-bottom: 7rem;
+  }
+  .card input {
+    width: 80%;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 6rem;
+    font-size: 2.2rem;
+  }
+  .card button {
+    height: 5rem;
+    width: 14rem;
+    padding: .5rem;
+    font-size: 1.8rem;
+    margin: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: 35%;
+    padding: 5rem 5rem;
+  }
+  .card p {
+    font-size: 2rem;
+    height: 0.5rem;
+    margin-bottom: 6rem;
+    margin-top: -4rem;
+  }
+  .card h1 {
+    font-size: 5rem;
+    margin-bottom: 7rem;
+  }
+  .card input {
+    width: 80%;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 6rem;
+    font-size: 2.2rem;
+  }
+  .card button {
+    height: 5rem;
+    width: 14rem;
+    padding: .5rem;
+    font-size: 1.8rem;
+    margin: 2rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .card {
+    width: 25%;
+    padding: 5rem 5rem;
+  }
+  .card p {
+    font-size: 2rem;
+    height: 0.5rem;
+    margin-bottom: 6rem;
+    margin-top: -4rem;
+  }
+  .card h1 {
+    font-size: 5rem;
+    margin-bottom: 7rem;
+  }
+  .card input {
+    width: 80%;
+    padding: 1.5rem 1.5rem;
+    margin-bottom: 6rem;
+    font-size: 2.2rem;
+  }
+  .card button {
+    height: 5rem;
+    width: 14rem;
+    padding: .5rem;
+    font-size: 1.8rem;
+    margin: 2rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

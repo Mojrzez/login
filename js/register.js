@@ -52,7 +52,7 @@ const registerEvent = () => {
             regError.style.color = 'lime'
 
             const page = () => {
-                location.href = 'http://127.0.0.1:5500/login.html'
+                document.location.href = 'https://mojrzez.github.io/login/login.html'
             }
             setTimeout(page, 2000);
         }
