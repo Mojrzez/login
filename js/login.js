@@ -35,7 +35,7 @@ const loginEvent = () => {
                 logError.style.color = 'lime'
 
                 const page = () => {
-                    location.href = 'https://mojrzez.github.io/login/panel.html'
+                    location.href = 'panel.html'
                 }
                 setTimeout(page, 2000);
 
